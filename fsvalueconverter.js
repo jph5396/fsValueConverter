@@ -24,14 +24,13 @@ function fsValueConverter (value) {
                     break;
                 case "mapValue": 
                     obj[key] = fsValueConverter(prop.mapValue.fields);
-                    break; 
+                    break;
                 default: 
                     obj[key] = prop[propKey];
                     break;
             }
         }
     });
-
     return obj; 
 }
 

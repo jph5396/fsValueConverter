@@ -4,7 +4,7 @@
   "description": "",
   "main": "fsvalueconverter.js",
   "scripts": {
-    "test": "node test.js"
+    "test": "jest"
   },
   "author": "Joseph Hackett",
   "license": "ISC",
